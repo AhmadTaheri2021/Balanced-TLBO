@@ -7,9 +7,22 @@ Hence, a Balanced Teaching-Learning-Based Optimization (BTLBO) algorithm is prop
 3) Tutoring Phase, which is a powerful local search for exploiting the regions around the best ever found solution.
 4) Restarting Phase, which improves exploration capability by replacing inactive learners with new randomly initialized learners.
 
-## *CEC 2014 benchmark functions:*
+#### *Citation:*
+Taheri, A., RahimiZadeh, K., & Rao, R. V. (2021). An efficient Balanced Teaching-Learning-Based optimization algorithm with Individual restarting strategy for solving global optimization problems. Information Sciences, 576, 68-104.
+DOI: https://doi.org/10.1016/j.ins.2021.06.064
+
+#### *CEC 2014 benchmark functions:*
 Presented in a special session on real-parameter single objective optimization [2], the CEC 2014 benchmark test suite includes 30 optimization functions. These test functions can be categorized into four groups according to their characteristics.
 - F01- F03 are uni-modal functions. This group has only one global optimum without any local optima and are suitable for examining the exploitation ability of algorithms.
 - F04-F016 are simple multimodal functions and have many local optima. These are used to investigate the exploration and the local optima avoidance capabilities of algorithms.
 - F17–F22 are hybrid functions and their subcomponents include both uni-modal and multi-modal functions. This group is suitable to examine exploitation and exploration of algorithms simultaneously.
 - F23–F30 are composition functions which merge the features of the sub-functions better than the hybrid functions. These functions can maintain continuity around the local or global optima. The composition functions utilize the hybrid functions as the basic functions. In experiments, all these functions are rotated and shifted. Therefore, their complexity is increased dramatically.
+
+#### *Acknowledgement:*
+This research was supported in part through computational resources provided by Dena High Performance Computing
+(HPC) center at Yasouj University, Iran.
+
+#### *References:*
+[1] Rao, R. V., Savsani, V. J., & Vakharia, D. P. (2011). Teaching–learning-based optimization: a novel method for constrained mechanical design optimization problems. Computer-Aided Design, 43(3), 303-315.
+
+[2] Liang, J. J., Qu, B. Y., & Suganthan, P. N. (2013). Problem definitions and evaluation criteria for the CEC 2014 special session and competition on single objective real-parameter numerical optimization. Computational Intelligence Laboratory, Zhengzhou University, Zhengzhou China and Technical Report, Nanyang Technological University, Singapore, 635, 490.
