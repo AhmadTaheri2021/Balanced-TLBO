@@ -18,6 +18,11 @@ Presented in a special session on real-parameter single objective optimization [
 - F17–F22 are hybrid functions and their subcomponents include both uni-modal and multi-modal functions. This group is suitable to examine exploitation and exploration of algorithms simultaneously.
 - F23–F30 are composition functions which merge the features of the sub-functions better than the hybrid functions. These functions can maintain continuity around the local or global optima. The composition functions utilize the hybrid functions as the basic functions. In experiments, all these functions are rotated and shifted. Therefore, their complexity is increased dramatically.
 
+#### *The usage of BTLBO:*
+BTLBO algorithm has been implemented in *MATLAB R2013b (8.2.0.70)*.
+
+A tutorial video is provided: YouTube: https://youtu.be/OubHU3xe_Kc
+
 #### *Acknowledgement:*
 This research was supported in part through computational resources provided by Dena High Performance Computing
 (HPC) center at Yasouj University, Iran.
