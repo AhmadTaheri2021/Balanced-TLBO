@@ -30,13 +30,13 @@ clc;
    NumofExper = 1;   % Number of test
   % Benchmark = 3;  % 1:Classic 2:CEC2005 3:CEC2014 
    Func_id = 1; % CEC2014 1~30 / CEC2005 1~25 / Classic 1~22
-   %FileName = [ FileName ' D30_NFE300K_30t ']; 
+  % FileName = [ FileName ' D30_NFE300K_30t ']; 
 
 % =====================================================================================
 
-Opt = zeros(1,30); % 
+ Opt = zeros(1,30); % 
  global initial_flag
-  initial_flag = 0;
+ initial_flag = 0;
 %% 
 Function_name=['F' num2str(Func_id)];
 %========== CEC2014 ==========
@@ -69,10 +69,10 @@ BestSolCostTLBO= []; %zeros(MaxFEs,1);
 for ii=1:NumofExper
     
  
-   rand('state',sum(100*clock));
+  rand('state',sum(100*clock));
   initial_flag = 0; % should set the flag to 0 for each run, each function
   
-   % Create Initial Population
+% Create Initial Population
 for i=1:nPop
    
     Population(i).Position= LB+rand(1,D).*(UB-LB); %LB+rand(1,D).*(UB-LB);
@@ -81,7 +81,7 @@ for i=1:nPop
    %  Population(i).Cost = YourCostFunc(Population(i).Position);
 end  
     
-   %% 
+%%----------------------------------
 tic;
 %[BestCostRTLBO_,BestSolCostBTLBO(ii)]=TLBO_Main(D,MaxFEs,LB,UB,Population,nPop,CostFunction);  
 [BestCostRTLBO_,BestSolCostBTLBO(ii)]=BTLBO_Algorithm(D,MaxFEs,LB,UB,Population,nPop,CostFunction);  
