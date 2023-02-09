@@ -24,6 +24,8 @@ BTLBO algorithm has been implemented in *MATLAB R2013b (8.2.0.70)*.
 A tutorial video is provided: YouTube: https://youtu.be/OubHU3xe_Kc
 
 #### *Acknowledgement:*
+This project was developed under supervision of Dr. Keyvan RahimiZadeh and in collabotion with Prof. R. Venkata Rao.
+
 This research was supported in part through computational resources provided by Dena High Performance Computing
 (HPC) center at Yasouj University, Iran.
 
